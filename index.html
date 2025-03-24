@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakmé Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lakmé Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Makeup</a></li>
+                <li><a href="#">Skincare</a></li>
+                <li><a href="#">Cart <span id="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h2>Exclusive Lakmé Makeup Products</h2>
+        <p>Get up to <b>50% OFF</b> on selected items!</p>
+      <button>Shop Now</button>
+    </section>
+
+    <section class="products">
+        <div class="product">
+           <a href="https://ibb.co/QjQVLwHf"><img src="https://i.ibb.co/tPK6gr24/IMG-20250324-134536-339.jpg" alt="IMG-20250324-134536-339" border="0"></a>
+            <h3>Lakmé Lipstick</h3>
+            <p>Rough Bloom Powder Bullet High Impact matte finish,weightless & long lasting up to 10hs,Brick Bloom.</p>
+            <p><s>₹999</s> ₹899 <span style="color: green;">(10% OFF)</span></p>
+            <p>⭐ 4.5</p>
+            <button onclick="addToCart(1)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <a href="https://ibb.co/99cWFV9n"><img src="https://i.ibb.co/ns6jHnsr/IMG-20250324-134912-674.jpg" alt="IMG-20250324-134912-674" border="0"></a>
+            <h3>Lakmé CC Cream</h3>
+            <p>Lakme 5 to 9cm CC Cream Mini,light face Makeup with Natural Coverage For All Skin.</p>
+            <p><s>₹149</s> ₹141 <span style="color: green;">(5% OFF)</span></p>
+            <p>⭐ 4.2</p>
+            <button onclick="addToCart(2)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <a href="https://ibb.co/994LrCvV"><img src="https://i.ibb.co/SXm839xd/IMG-20250324-134859-394.jpg" alt="IMG-20250324-134859-394" border="0"></a>
+            <h3>Lakmé Peach Cream</h3>
+            <p>Lakme Peach Milk Soft cream Moisture for Face 100g, Daily lightweight whipped Cream with Vitamin-E for soft or Glowing Skin-24hr Moisture.</p>
+            <p><s>₹199</s> ₹189 <span style="color: green;">(5% OFF)</span></p>
+            <p>⭐ 4.0</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <a href="https://ibb.co/kgbpHtCc"><img src="https://i.ibb.co/1fy3vkW2/IMG-20250324-134854-221.jpg" alt="IMG-20250324-134854-221" border="0"></a>
+            <h3>Lakmé Eye Co Nic</h3>
+            <p>Lakme Eyeconic Kajal Pencil Twin Pack, Black,0.35G with 0.35G matte Finish.</p>
+            <p><s>₹499</s> ₹399 <span style="color: green;">(20% OFF)</span></p>
+            <p>⭐ 4.3</p>
+            <button onclick="addToCart(4)">Add to Cart</button>
+        </div>
+        <div class="product">
+           <a href="https://ibb.co/W1ZpJtp"><img src="https://i.ibb.co/Nz5nBSn/IMG-20250324-WA0006.jpg" alt="IMG-20250324-WA0006" border="0"></a>
+            <h3>Lakmé Xtraodin-Airy Foundation </h3>
+            <p>Xtraoding-Airy Matteral Mousse foundation,matte finish,with,0.3,Golden sang.</p>
+            <p><s>₹499</s> ₹474 <span style="color: green;">(5% OFF)</span></p>
+            <p>⭐ 4.0</p>
+            <button onclick="addToCart(3)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+           <a href="https://imgbb.com/"><img src="https://i.ibb.co/gL2Y2cWz/IMG-20250324-134910-006.jpg" alt="IMG-20250324-134910-006" border="0"></a>
+            <h3>Lakmé Priming Foundation</h3>
+            <p>Lakme 9 to 5 Primer + Matter Perfect Cover Foundation, W120 Warm Cream,25ml.</p>
+            <p><s>₹399</s> ₹319 <span style="color: green;">(20% OFF)</span></p>
+            <p>⭐ 4.6</p>
+            <button onclick="addToCart(5)">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Lakmé Store | Contact: support@lakmestore.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
